@@ -169,5 +169,64 @@
 
 
 
+// homework
+// question 1 : Print all numbers divisible by 3 and 5 up to N
+
+// const num = 80;
+// let output = ""
+
+// for (let i = 1; i <= num; i++){
+//     if (i % 3 === 0 && i % 5 === 0){
+//         output = output + i + " ";
+//     }
+    
+// }
+// console.log(output);
+
+
+
+
+
+
+
+
+
+// question 2 and 3 : done
+
+
+
+
+
+
+
+// question 4 : Print only the numbers that are both even and perfect squares
+
+
+let num1 = 1;
+let num2 = 100;
+let output = ""
+
+
+for (let i = num1; i <= num2; i++) { 
+    let sqrt = Math.sqrt(i);
+    if (sqrt % 1 === 0 && i % 2 === 0) {
+        output = output + i + " ";
+    }
+}
+
+console.log(output);
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
